@@ -14,4 +14,4 @@ docker run \
 -v $DIR/etc/log.properties:/usr/lib/presto/etc/log.properties \
 -v $DIR/etc/node.properties:/usr/lib/presto/etc/node.properties \
 -d --rm \
--p 8080:8080 --name presto-demo-latest starburstdata/presto
+-p 8080:8080 --name presto-demo-latest starburstdata/presto:343-e

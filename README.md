@@ -14,6 +14,7 @@ This is a demo being shown at the Postgres Conference webinar. It was created on
 
 To use this, you must have Docker Desktop installed and a reasonable amount of RAM, at least 8GB. It will pull down a Starburst Presto container, add volumes to it, and configure it with the settings and connectors found in the etc directory. It might not work properly on Windows Machines yet, unless you have the requisite Unix extensions.
 
-Once you've downloaded it, just run run-presto-container-demo.sh and it will start a little container that will try to connect to all data sources listed. Then, use your favorite SQL tool to query the data sources.
+Once you've downloaded it, just run run-presto-container-demo.sh and it will start a little container that will try to connect to all data sources listed. Then, use your favorite SQL tool to query the data sources with the connection string: localhost:8080 and the driver type as PrestoSQL.
+
 
 Have fun.
